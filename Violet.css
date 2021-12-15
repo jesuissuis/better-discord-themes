@@ -2051,13 +2051,16 @@
   border: 1px solid rgba(0, 0, 0 , 0.76);
 }
 
-.members-1998pB {
-  width: 240px;
-  background-color: transparent;
+.channelName-2YrOjO:hover {
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(53, 53, 53, 0.3));
 }
 
-.members-1998pB>div {
-  background-color: transparent;
+.container-2wlB3z {
+  background: transparent !important;
+}
+
+.members-1998pB, .members-1998pB>div {
+  background: rgba(46, 46, 46, 0.05 ) !important;
 }
 
 .activity-E-0FeD {
@@ -2541,10 +2544,13 @@
 svg.homeIcon-FuNwkv{
     color:transparent;
 }
-.homeIcon-FuNwkv{
-    background-image: url("https://raw.githubusercontent.com/jesuissuis/Violet-Evergarden/main/violet2.png");
+.childWrapper-anI2G9{
+    background-image: url(https://raw.githubusercontent.com/jesuissuis/Violet-Evergarden/main/violetchibitransparent100x100.png);
     background-size: cover;
     background-position: center;
+}
+.homeIcon-AaowEC>path{
+  opacity: 0 !important;
 }
 .container-lRFx4q{
     background-color: transparent;
