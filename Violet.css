@@ -2055,6 +2055,10 @@
   background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(53, 53, 53, 0.3));
 }
 
+.actionIcon-PgcMM2:hover {
+  box-shadow: 0px 0px 2px 2px rgb(80, 80, 80);
+}
+
 .container-2wlB3z {
   background: transparent !important;
 }
