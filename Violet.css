@@ -1,9 +1,3 @@
-:root {
-  --background_url: url(https://raw.githubusercontent.com/jesuissuis/Violet-Evergarden/main/violet.jpg);
-  --user_popout_url: url(https://raw.githubusercontent.com/jesuissuis/Violet-Evergarden/main/violetevergarden.png);
-  --volume_knob_url: url(https://raw.githubusercontent.com/jesuissuis/Violet-Evergarden/main/violetchibitransparent100x100.png);
-}
-
 .app-2rEoOp {
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.694) 33%, rgba(0, 0, 0, 0.598) 65%), var(--background_url);
   background-size: cover;
