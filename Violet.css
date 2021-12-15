@@ -1,11 +1,17 @@
+:root {
+  --background_url: url(https://raw.githubusercontent.com/jesuissuis/Violet-Evergarden/main/violet.jpg);
+  --user_popout_url: url(https://raw.githubusercontent.com/jesuissuis/Violet-Evergarden/main/violetevergarden.png);
+  --volume_knob_url: url(https://raw.githubusercontent.com/jesuissuis/Violet-Evergarden/main/violetchibitransparent100x100.png);
+}
+
 .app-2rEoOp {
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.694) 33%, rgba(0, 0, 0, 0.598) 65%), url(https://raw.githubusercontent.com/jesuissuis/Violet-Evergarden/main/violet.jpg);
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.694) 33%, rgba(0, 0, 0, 0.598) 65%), var(--background_url);
   background-size: cover;
   border: 1px;
 }
 
 .standardSidebarView-3F1I7i {
-  background-image: url(https://raw.githubusercontent.com/jesuissuis/Violet-Evergarden/main/violet.jpg);
+  background-image: var(--url);
   background-size: cover;
 }
 
@@ -558,7 +564,7 @@
 }
 
 .grabber-3mFHz2 {
-  background-image: url("https://raw.githubusercontent.com/jesuissuis/Violet-Evergarden/main/violet%20chibi.jpg");
+  background-image: var(--volume_knob_url);
   border: none;
   box-shadow: none;
   background-size: cover;
@@ -1898,12 +1904,20 @@
   background-color: #808080 !important;
 }
 
-.userPopout-3XzG_A {
+.userPopout-xaxa6l {
   box-shadow: none;
   border-radius: 25px;
   background-size: cover;
-  background: url(https://raw.githubusercontent.com/jesuissuis/Violet-Evergarden/main/violet%20chibi.jpg) 30%/cover;
-  ;
+  background: var(--user_popout_url) 10%/cover;
+  background-position: center;
+}
+
+.bodyInnerWrapper-26fQXj {
+  background-color: transparent;
+}
+
+.applicationInstallButton-1M2YjM {
+  background-color: transparent !important;
 }
 
 .popout-2iWAc- {
@@ -1944,9 +1958,9 @@
   background-color: rgba(30, 31, 110, 0.60);
 }
 
-.root-SR8cQa {
+.body-r6_QPy {
   border-radius: 12px;
-  background: url(https://raw.githubusercontent.com/jesuissuis/Violet-Evergarden/main/violet%20chibi.jpg) 35%/cover;
+  background: var(--background_url) 35%/cover;
 }
 
 .theme-dark .body-3iLsc4,
@@ -2498,7 +2512,7 @@
 }
 
 .theme-dark .ctaBar-2UsjF2{
-    background-image: url(https://raw.githubusercontent.com/jesuissuis/Violet-Evergarden/main/violet1.jpg);
+    background-image: var(--background_url);
 }
 
 .ctaBar-2UsjF2{
@@ -2534,7 +2548,7 @@
 }
 
 .wrapper-3nSjSv:before{
-    background-image: url(https://raw.githubusercontent.com/jesuissuis/Violet-Evergarden/main/violet1.jpg);
+    background-image: var(--background_url);
     background-size: 100px 100px;
 }
 
@@ -2549,9 +2563,9 @@ svg.homeIcon-FuNwkv{
     color:transparent;
 }
 .childWrapper-anI2G9{
-    background-image: url(https://raw.githubusercontent.com/jesuissuis/Violet-Evergarden/main/violetchibitransparent100x100.png);
+    background-image: var(--volume_knob_url);
     background-size: cover;
-    background-position: center;
+    background-position: center;  
 }
 .homeIcon-AaowEC>path{
   opacity: 0 !important;
