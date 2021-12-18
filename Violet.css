@@ -1,3 +1,5 @@
+@import url(https://jesuissuis.github.io/css/fonturls.css);
+
 .app-2rEoOp {
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.694) 33%, rgba(0, 0, 0, 0.598) 65%), var(--background_url);
   background-size: cover;
@@ -1902,7 +1904,7 @@
   box-shadow: none;
   border-radius: 25px;
   background-size: cover;
-  background: var(--user_popout_url) 10%/cover;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.694) 33%, rgba(0, 0, 0, 0.598) 65%), var(--user_popout_url) 10%/cover;
   background-position: center;
 }
 
@@ -1954,7 +1956,7 @@
 
 .body-r6_QPy {
   border-radius: 12px;
-  background: var(--background_url) 35%/cover;
+  background: linear-gradient(180deg, rgba(0, 0, 0, .494) 33%, rgba(0, 0, 0, .398) 65%),var(--background_url) 35%/cover;
 }
 
 .theme-dark .body-3iLsc4,
@@ -2554,12 +2556,14 @@
   box-shadow: 0 0 3px 1px rgb(0, 0, 0 ), 0 0 3px 1px rgb(0, 0, 0 ), 0 0 3px 1px rgb(0, 0, 0 );
 }
 svg.homeIcon-FuNwkv{
-    color:transparent;
+    color: transparent;
+}
+.wrapper-1BJsBx{
+  background-image: var(--volume_knob_url);
+  background-size: cover;
 }
 .childWrapper-anI2G9{
-    background-image: var(--volume_knob_url);
-    background-size: cover;
-    background-position: center;  
+  opacity: 0;
 }
 .homeIcon-AaowEC>path{
   opacity: 0 !important;
@@ -2584,4 +2588,37 @@ svg.homeIcon-FuNwkv{
 }
 #bd-pub-button:hover{
   background-color: rgba(0, 0, 0, 0.6);
+}
+.customStatusText-1vtUsN{
+  color: rgb(255, 255, 255);
+  text-shadow: 1px -1px 10px rgba(0, 0, 0, 0.6);
+}
+.username-2b1r56,
+.headerTagDiscriminatorNoNickname-D-AYUN{
+  color: white;
+}
+.messageContent-2qWWxC,
+.username-1A8OIy,
+.chat-3bRxxu,
+.panels-j1Uci_,
+.wordmarkWindows-1v0lYD,
+.sidebar-2K8pFh,
+.name-1jkAdW,
+.title-29uC1r,
+.container-1MGX4D,
+.name-3l27Hl,
+.userPopout-xaxa6l,
+.nickname-3M3Jfa,
+.headerTagWithNickname-3l_x6x,
+.headerTagNoNickname-3qrd77,
+.membersGroup-v9BXpm,
+.layer-2KE1M9,
+.scroller-3GIiMh,
+.queryText-3xoOY7,
+.userInfoSection-q_35fn,
+.note-367eZJ,
+.username-2b1r56,
+.headerTagDiscriminatorNoNickname-D-AYUN,
+.standardSidebarView-3F1I7i{
+  font-family: var(--font);
 }
